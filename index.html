@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en" dir="ltr">
 
 <head>
@@ -50,7 +50,7 @@ body{
   background: #clear;
 }
 .wrapper{
-  background: #fff;
+  background: #17212B;
   border-radius: 2px;
   font-size: 50%;
 }
@@ -59,6 +59,7 @@ body{
   align-items: center;
   padding: 10px 20px 0px;
   justify-content: space-between;
+  color: white;
 }
 header .icons{
   display: flex;
@@ -68,7 +69,7 @@ header .icons span{
   width: 40px;
   margin: 0 1px;
   cursor: pointer;
-  color: #878787;
+  color: white;
   text-align: center;
   line-height: 38px;
   font-size: 1.9rem;
@@ -79,7 +80,7 @@ header .icons span{
   margin-right: -10px;
 }
 header .icons span:hover{
-  background: #f2f2f2;
+  background: white;
 }
 header .current-date{
   font-weight: 600;
@@ -99,7 +100,7 @@ header .current-date{
   margin-bottom: 20px;
 }
 .calendar li{
-  color: #333;
+  color: white;
   width: calc(100% / 7);
   min-font-size: o.5rem;
   max-font-size: 1.5 rem;
@@ -118,7 +119,7 @@ header .current-date{
   color: #aaa;
 }
 .days li.active{
-  color: #fff;
+  color: black;
 }
 .days li::before{
   position: absolute;
@@ -132,10 +133,10 @@ header .current-date{
   transform: translate(-50%, -50%);
 }
 .days li.active::before{
-  background: black;
+  background: white;
 }
 .days li:not(.active):hover::before{
-  background: #f2f2f2;
+  background: #grey;
 }
 </style>
 <script>
